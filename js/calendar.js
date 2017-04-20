@@ -61,7 +61,7 @@ var wrapper = document.getElementById('wrapper'),
 
 btn[0].onclick = function (e) {
     var th = document.getElementsByTagName('th');
-    if (e.target.innerText && e.target != header && e.target != th) {
+    if (e.target.innerText && e.target != header && e.target.nodeName != 'TH') {
         wrapper.style.display = 'block';
         modal.innerText = monthLiteral + ' ' + e.target.innerText + ', ' + curYear;
     }
