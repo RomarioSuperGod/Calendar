@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.calendarContainer{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.calendar{
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Bodoni MT Black', sans-serif;
+    font-size: 24px;
+}
+
+
+table, tr, th, td{
+    border: 2px solid #888888;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+table{
+    color: #313131;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ccc;
+    background: #FCF6B7;
+}
+
+tr, th, td{
+    text-align: center !important;
+    width: 80px;
+    height: 40px;
+}
+
+th{
+    background: #C3E5CD;
+}
+
+td{
+    color: #2F315C;
+}
+
+td:hover{
+    background: #FFFFCC;
+    font-size: 28px;
+}
+
+#calendarHeader{
+    height: 80px;
+    border-top: 2px solid #888888;
+    border-left: 2px solid #888888;
+    border-right: 2px solid #888888;
+    background: #2F3144;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+#wrapper {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#modal {
+
+    /*background-color: #fefefe;*/
+    border: 1px solid #dddddd;
+    padding: 12px;
+    width: 50%;
+    margin: 17% auto 0 auto;
+    font-size: 32px;
+    font-family: 'Bodoni MT Black', sans-serif;
+    color: #313131;
+    background: #FCF6B7;
+    border-radius: 5px;
+}
+
+#close {
+    float: right;
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
